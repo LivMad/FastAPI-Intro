@@ -1,0 +1,19 @@
+meta {
+  name: 1 Adicionar tarefas
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://127.0.0.1:8000/tarefas/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "titulo": "assar bolo",
+    "descricao": "siga receita",
+    "concluido": false
+  }
+}

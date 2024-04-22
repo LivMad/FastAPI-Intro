@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "FastAPI_Exercicio",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
